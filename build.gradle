@@ -27,7 +27,7 @@ subprojects {
     }
 
     test {
-        reports.junitXml.destination = file("$reports.junitXml.destination/unit")
+        //reports.junitXml.destination = file("$reports.junitXml.destination/unit")
     }
 
     sonarRunner {
